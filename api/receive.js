@@ -1,8 +1,8 @@
 import { createClient } from '@supabase/supabase-js';
 
 // 替换成你自己的 Supabase 信息
-const SUPABASE_URL = '你的Project URL';
-const SUPABASE_KEY = '你的service_role secret';
+const SUPABASE_URL = 'https://lokkwczzdwamzevuhcfs.supabase.co';
+const SUPABASE_KEY = 'sb_secret_AVrFiJR_s0wb77qXjJ1YqA_4rCLU9ZD';
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // 简单的密钥验证（防止恶意请求，对话流里也要加这个密钥）
